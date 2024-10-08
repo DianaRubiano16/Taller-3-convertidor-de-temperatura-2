@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* Color de fondo suave */
+}
+
+.container {
+    text-align: center;
+    background-color: white; /* Fondo blanco para el contenedor */
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra del contenedor */
+    max-width: 400px; /* Ancho máximo para el contenedor */
+    width: 100%; /* Asegura que sea responsivo */
+}
+
+h1 {
+    color: #00796b; /* Color del texto del título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+.converter {
+    margin: 20px 0;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 22px); /* Ajustar el ancho del campo de entrada */
+    border: 2px solid #00796b; /* Color del borde */
+    border-radius: 5px; /* Bordes redondeados para los inputs */
+    transition: border 0.3s; /* Transición para el borde */
+}
+
+input:focus {
+    border-color: #004d40; /* Color del borde al enfocar */
+    outline: none; /* Eliminar el contorno por defecto */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #00796b; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición para el fondo */
+}
+
+button:hover {
+    background-color: #004d40; /* Color del fondo al pasar el mouse */
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333; /* Color del texto del resultado */
+    font-weight: bold; /* Negrita para el resultado */
+}
